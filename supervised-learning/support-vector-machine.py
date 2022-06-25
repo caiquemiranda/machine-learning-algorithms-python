@@ -15,5 +15,13 @@ class SupportVectorMachine(object):
         self.power = power
         self.gamma = gamma
         self.coef = coef
+        self.lagr_multpliers = None
+        self.support_vector_labels = None
+        self.intercept = None
+    
+    def linear_kernel(**kwargs):
+        def f(x1,x2):
+            return np.inner(x1, x2)
+        return f
 
-        pass
+    pass
