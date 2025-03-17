@@ -207,5 +207,5 @@ if __name__ == "__main__":
     visualizar_regressao(X, y, 'multipla', "Regressão Múltipla")
     
     plt.tight_layout()
-    plt.savefig("data/datasets_regressao.png", dpi=100)
+    plt.savefig("datasets_regressao.png", dpi=100)
     plt.show() 

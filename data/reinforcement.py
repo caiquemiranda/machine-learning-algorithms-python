@@ -301,7 +301,7 @@ if __name__ == "__main__":
     plt.figure(figsize=(10, 10))
     ambiente.renderizar(politica=politica)
     plt.tight_layout()
-    plt.savefig("data/ambiente_reinforcement.png", dpi=100)
+    plt.savefig("ambiente_reinforcement.png", dpi=100)
     plt.show()
     
     # Demonstrar alguns passos no ambiente

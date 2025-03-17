@@ -195,5 +195,5 @@ if __name__ == "__main__":
     visualizar_clusters(X[:, :2], y, "Dados de Alta Dimensão (Primeiras 2 Dimensões)")
     
     plt.tight_layout()
-    plt.savefig("data/datasets_clustering.png", dpi=100)
+    plt.savefig("datasets_clustering.png", dpi=100)
     plt.show() 
